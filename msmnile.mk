@@ -177,8 +177,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.lucid.biometrics.fingerprint.inscreen@1.0-service.xiaomi_raphael
 
-PRODUCT_COPY_FILES += \
-    vendor/lucid/configs/permissions/vendor.lucid.biometrics.fingerprint.inscreen.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor.lucid.biometrics.fingerprint.inscreen.xml
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.fingerprint.xml
